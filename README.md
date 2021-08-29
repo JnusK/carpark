@@ -1,4 +1,4 @@
-# Car Park Management App
+# Car Park Management
 
 ## Requirements
 - Node 15.9.0 and later. Install if not available.
