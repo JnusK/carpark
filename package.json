@@ -1,0 +1,27 @@
+{
+  "name": "carpark",
+  "version": "1.0.0",
+  "description": "Car Park Management System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "",
+    "eslint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Janus Kiong Yan Cong",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.2.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.1.0"
+  }
+}

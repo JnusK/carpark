@@ -5,6 +5,14 @@
 - dependencies specified in package.json
 
 ## Steps to run
-1) Change directory to root of project
-2) Run ```npm i```
-3) Run ```node . -f <file-path>``` in command line in the root of project to run the script. File path should be relative to root of project.
+1) Change current directory to root of project
+2) Run ```npm i``` and wait for all dependecies to be installed.
+3) Run ```node .``` in command line in the root of project to run the script.
+
+## Design
+The project uses aggregate design from Domain Driven Design.
+The aggregate root is the car park domain, and the lots are the leaves. 
+
+## Possible Improvement
+- Change out the global carPark object to use a database with car park as a document. 
+  This would be useful if there is a need to manage multiple car parks.
